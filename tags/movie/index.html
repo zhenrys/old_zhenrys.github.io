@@ -60,7 +60,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"zhenrys.github.io","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"zhenrys.github.io","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":"❡"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":true,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -263,9 +263,30 @@
                 
 
 <div class="list-group">
-  <p class="h4">共计 8 篇文章</p>
+  <p class="h4">共计 11 篇文章</p>
   <hr>
   
+  
+    
+      
+      <p class="h5">2025</p>
+    
+    <a href="/2025/01/25/%E7%94%B5%E5%BD%B1-%E5%8D%A7%E8%99%8E%E8%97%8F%E9%BE%99/" class="list-group-item list-group-item-action">
+      <time>01-25</time>
+      <div class="list-group-item-title">电影-卧虎藏龙</div>
+    </a>
+  
+    
+    <a href="/2025/01/24/%E7%94%B5%E5%BD%B1-%E4%BD%8E%E4%BF%97%E5%B0%8F%E8%AF%B4/" class="list-group-item list-group-item-action">
+      <time>01-24</time>
+      <div class="list-group-item-title">电影-低俗小说</div>
+    </a>
+  
+    
+    <a href="/2025/01/15/%E5%8A%A8%E7%94%BB-%E6%8B%BE%E8%8D%92%E8%80%85%E7%BB%9F%E6%B2%BB/" class="list-group-item list-group-item-action">
+      <time>01-15</time>
+      <div class="list-group-item-title">动画-拾荒者统治</div>
+    </a>
   
     
       
@@ -312,14 +333,14 @@
       <div class="list-group-item-title">电影-阿甘正传</div>
     </a>
   
-    
-    <a href="/2024/10/04/%E7%94%B5%E5%BD%B1-%E9%9F%B3%E4%B9%90%E4%B9%8B%E5%A3%B0/" class="list-group-item list-group-item-action">
-      <time>10-04</time>
-      <div class="list-group-item-title">电影-音乐之声</div>
-    </a>
-  
 </div>
 
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <span class="page-number current">1</span><a class="page-number" href="/tags/movie/page/2/#board">2</a><a class="extend next" rel="next" href="/tags/movie/page/2/#board"><i class="iconfont icon-arrowright"></i></a>
+    </span>
+  </nav>
 
 
 
@@ -413,7 +434,7 @@
   <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
 
   <script>
-    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.configure({"showSpinner":true,"trickleSpeed":100})
     NProgress.start()
     window.addEventListener('load', function() {
       NProgress.done();
